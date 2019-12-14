@@ -1,0 +1,12 @@
+nt main() {
+   FILE *fp;
+   char ch;
+   int count=0;
+     int characters, words, lines, digit;
+   int linesCount=0;
+   //open file in read more
+   fp=fopen("g.txt","r");
+   if(fp==NULL) {
+      printf("Some problem in opening the file");
+exit(0);
+   }
